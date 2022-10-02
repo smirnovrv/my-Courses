@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5937e5c5-44be-4298-9ce2-e396f8c2a0e6">
+  <producedTypes>
+    <objectType typeId="a4c1a96a-f6fa-43ea-9c2d-c7663c885811" valueTypeId="fb1c5a48-57ba-409d-a661-dadaa78dbf57"/>
+    <refType typeId="7556fe10-c5d8-44df-a7ed-31f5125ea05d" valueTypeId="e92987c9-71f2-40aa-9754-47c9c6b9009d"/>
+    <selectionType typeId="1b610fbe-59cc-446a-ba09-a97f6f0a8943" valueTypeId="b442d4d2-581d-4202-8d6c-e309555a8e99"/>
+    <listType typeId="529e4ec3-0d0b-4957-a423-8700ad531145" valueTypeId="f34c7bc8-153d-4471-8371-c79b403571d2"/>
+    <managerType typeId="6885ae94-4ec2-4af1-b02a-d875b353ff69" valueTypeId="faba10b6-5ad6-488b-9b22-2a29e56b4f35"/>
+  </producedTypes>
+  <name>ЗадачаИсполнителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача исполнителя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ЗадачаИсполнителя.StandardAttribute.Description</inputByString>
+  <inputByString>Task.ЗадачаИсполнителя.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Task.ЗадачаИсполнителя.Form.ФормаЗадачи</defaultObjectForm>
+  <tabularSections uuid="9db80e33-fd6a-4844-9c44-2a5af27f08fe">
+    <producedTypes>
+      <objectType typeId="07d38afc-a3aa-483a-a2b7-73d7abd8d643" valueTypeId="93efcfc7-bfc8-4a6d-b5e8-2ea0ff5e2c6b"/>
+      <rowType typeId="031e919e-d7e6-4d94-a35b-6f83b0f5fbef" valueTypeId="d6adb5a9-edd9-4302-8e1a-a91fa4dff2d5"/>
+    </producedTypes>
+    <name>РезультатыДействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты действий</value>
+    </synonym>
+    <attributes uuid="be36808c-c99c-4b32-9e8a-c77392defe7d">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="91b65a0e-a41b-4cf2-8740-ac784cd4d49e">
+      <name>ТекДата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="180b51e8-cf81-4479-81a9-6e307c0482d0">
+    <name>ФормаЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Task>

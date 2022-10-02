@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14b9dbac-21c2-4bda-b8be-4ac52323b48c">
+  <producedTypes>
+    <objectType typeId="4624b029-4efe-4389-96e7-5187b7cc5180" valueTypeId="68ef44aa-6015-46c8-8052-d30ce5c8bdef"/>
+    <refType typeId="fd879803-366b-41be-bac6-ec646dc48482" valueTypeId="a3f3606c-4750-4446-aa75-7ce212de1989"/>
+    <selectionType typeId="be537689-9a27-4b3e-bb85-071edf1843a7" valueTypeId="f0ff7909-cdd2-4f6b-a42d-5fd64415c3f9"/>
+    <listType typeId="10cb20c2-61b6-45ac-bef4-15609a485c52" valueTypeId="00d4140d-2849-47b0-92be-aedd0d39f6cb"/>
+    <managerType typeId="056ef9f0-1937-4d7d-982c-b348af7a3f86" valueTypeId="fcba9bda-eb04-4979-a52a-7b1098003647"/>
+  </producedTypes>
+  <name>Курсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курсы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Курсы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Курсы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

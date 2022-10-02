@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="147dd57f-a7a7-4fb8-9b03-ea2eb5a0a151">
+  <producedTypes>
+    <objectType typeId="d2d8763f-ebca-44e6-a25f-8bb85f138477" valueTypeId="63747425-2d04-4a02-8d1f-8386c31d9994"/>
+    <refType typeId="909e142f-8252-42d7-a157-033be2911b00" valueTypeId="a407b735-db1b-408a-8245-acfe94de86a0"/>
+    <selectionType typeId="1f9eaf21-61da-4f5b-a13c-adda2046cbc9" valueTypeId="3d89f435-f624-4558-8953-c63c1b830fea"/>
+    <listType typeId="14271d3a-d477-4c11-9be0-aa62cf2a89b8" valueTypeId="572575cc-99de-4a39-865e-40b2483f826c"/>
+    <managerType typeId="29a52f89-068b-40f7-b9c0-696881a69805" valueTypeId="deb9baf6-150f-439a-8e5d-98ef54f011d5"/>
+  </producedTypes>
+  <name>СодержаниеКурса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Содержание курса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СодержаниеКурса.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СодержаниеКурса.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Курсы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СодержаниеКурса.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="efb8d37f-112b-49d5-a48d-eb6c404cff76">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0bb66aab-dd16-4844-bbeb-7a1fffc47d71">
+    <name>Ресуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресуры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="75079c1e-dfa4-4f74-a28c-c5d247824d41">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
