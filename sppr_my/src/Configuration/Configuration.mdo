@@ -43,6 +43,7 @@
   <catalogs>Catalog.Курсы</catalogs>
   <catalogs>Catalog.СодержаниеКурса</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
   <dataProcessors>DataProcessor.HTML</dataProcessors>
   <tasks>Task.ЗадачаИсполнителя</tasks>
   <tasks>Task.ЗадачаИсполнителяДерево</tasks>
