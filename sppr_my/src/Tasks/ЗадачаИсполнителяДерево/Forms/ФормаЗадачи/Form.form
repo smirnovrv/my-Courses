@@ -490,6 +490,59 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>Дерево</name>
+    <title>
+      <key>ru</key>
+      <value>Дерево</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>ValueTree</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>Заголовок</name>
+      <title>
+        <key>ru</key>
+        <value>Заголовок</value>
+      </title>
+      <id>4</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Описание</name>
+      <title>
+        <key>ru</key>
+        <value>Описание</value>
+      </title>
+      <id>5</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
   <formCommands>
     <name>ДобавитьФайлы</name>
     <title>
