@@ -9,5 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Task.ЗадачаИсполнителя</content>
   <content>Catalog.Партнеры</content>
-  <content>Task.ЗадачаИсполнителяДерево</content>
+  <content>Task.ЗадачаИсполнителя2</content>
 </mdclass:Subsystem>

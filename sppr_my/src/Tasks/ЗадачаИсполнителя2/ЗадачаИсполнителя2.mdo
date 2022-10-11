@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7543b881-61f0-411d-9987-ee9930a81432">
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="335023d6-660b-4879-8c34-c5d0fc8cbf98">
   <producedTypes>
-    <objectType typeId="4f4962cb-5f1f-4dcb-b5f7-68093617083c" valueTypeId="3137a020-41e4-4e44-92bf-3671cb19c739"/>
-    <refType typeId="dd8a2754-a15e-4173-8724-5637b1aefefb" valueTypeId="28f79734-a5a7-4f16-b81f-bafff8e0a2d8"/>
-    <selectionType typeId="ab4842a1-d458-4f2c-82d3-11b88e71fba3" valueTypeId="c8629ec5-a72d-4033-b64c-47f7cf22dc5e"/>
-    <listType typeId="92677a3a-8829-4311-949a-b03942edf9ec" valueTypeId="7c2327fc-43ea-4a08-824b-1966f2b0e938"/>
-    <managerType typeId="1fe3307f-ce1c-4f65-84aa-408fd6384d29" valueTypeId="3880f798-dd73-4fc3-a414-4fa5802f1d0c"/>
+    <objectType typeId="8d5bc316-5f1c-43e2-9308-32ecbe4bfb5b" valueTypeId="d689214b-8fb6-4fe4-b2d9-36893df8bf13"/>
+    <refType typeId="3a905470-51cb-412d-88b4-77af67411e06" valueTypeId="456a8e5d-5d94-4345-a638-4a6e383f85fa"/>
+    <selectionType typeId="9c64b4aa-2eff-4726-b9ea-525f6555cde1" valueTypeId="39b69d61-5905-4786-975f-856b939eeca6"/>
+    <listType typeId="200edcb1-e1a9-4a5e-a0c4-4eda7e4fa31d" valueTypeId="04a48773-fb6e-4087-b0f4-2de7614b9567"/>
+    <managerType typeId="c6ed5ac2-688b-45fa-a1af-51c10bc1aae2" valueTypeId="1904b2c0-7471-4873-9b81-37fae4f81034"/>
   </producedTypes>
-  <name>ЗадачаИсполнителяДерево</name>
+  <name>ЗадачаИсполнителя2</name>
   <synonym>
     <key>ru</key>
-    <value>Задача исполнителя дерево</value>
+    <value>Задача исполнителя2</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Task.ЗадачаИсполнителяДерево.StandardAttribute.Description</inputByString>
-  <inputByString>Task.ЗадачаИсполнителяДерево.StandardAttribute.Number</inputByString>
+  <inputByString>Task.ЗадачаИсполнителя2.StandardAttribute.Description</inputByString>
+  <inputByString>Task.ЗадачаИсполнителя2.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -93,11 +93,11 @@
   <descriptionLength>25</descriptionLength>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
-  <defaultObjectForm>Task.ЗадачаИсполнителяДерево.Form.ФормаЗадачи</defaultObjectForm>
-  <tabularSections uuid="8f66d86b-8f2e-4f3d-9fe4-a32ae34e5199">
+  <defaultObjectForm>Task.ЗадачаИсполнителя2.Form.ФормаЗадачи</defaultObjectForm>
+  <tabularSections uuid="ae50375f-0518-445a-a6c5-51ea68de9b08">
     <producedTypes>
-      <objectType typeId="60722d12-f6a2-4aec-a9c4-02c0fc2b6bc4" valueTypeId="54e74e3b-ee0b-4f8e-8280-6210ce33b341"/>
-      <rowType typeId="cc950a8c-1a70-47a8-9f36-ffa5ca69645b" valueTypeId="623949ae-c93d-40fa-93cf-bb1535e28c11"/>
+      <objectType typeId="85c3cef6-dbc1-4a62-b650-4d06a644cd11" valueTypeId="1de91ab0-6c7c-476b-8bf6-a0df3cec4a1d"/>
+      <rowType typeId="af36e21c-ce35-4c99-b1a9-2484ef377a03" valueTypeId="d921bb3b-e947-4bcf-94d7-fcec87a59606"/>
     </producedTypes>
     <name>РезультатыДействий</name>
     <synonym>
@@ -112,7 +112,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="b7580709-b56c-4a38-9b7c-a770ced2bb6c">
+    <attributes uuid="7ec6a19b-19d5-4f4a-8023-463cd6963e01">
       <name>Комментарий</name>
       <synonym>
         <key>ru</key>
@@ -127,7 +127,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="6f562695-584d-42d9-a7b0-ce5fce986a5e">
+    <attributes uuid="f2ad9a7b-7ed6-4aeb-a531-0990af6c7eaa">
       <name>ТекДата</name>
       <synonym>
         <key>ru</key>
@@ -143,7 +143,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <forms uuid="befded11-c629-47ce-b708-252feb3170f3">
+  <forms uuid="3c890e12-4894-4c96-80f5-b0a392db4a63">
     <name>ФормаЗадачи</name>
     <synonym>
       <key>ru</key>

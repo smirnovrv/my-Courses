@@ -41,9 +41,10 @@
   <subsystems>Subsystem.Задачи</subsystems>
   <catalogs>Catalog.ЗадачаИсполнителяФайлы</catalogs>
   <catalogs>Catalog.Курсы</catalogs>
-  <catalogs>Catalog.СодержаниеКурса</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.СодержаниеКурса</catalogs>
+  <catalogs>Catalog.СодержаниеКурсаФайлы</catalogs>
   <dataProcessors>DataProcessor.HTML</dataProcessors>
   <tasks>Task.ЗадачаИсполнителя</tasks>
-  <tasks>Task.ЗадачаИсполнителяДерево</tasks>
+  <tasks>Task.ЗадачаИсполнителя2</tasks>
 </mdclass:Configuration>
