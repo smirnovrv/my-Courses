@@ -42,6 +42,7 @@
   <catalogs>Catalog.ЗадачаИсполнителяФайлы</catalogs>
   <catalogs>Catalog.Курсы</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
   <catalogs>Catalog.СодержаниеКурса</catalogs>
   <catalogs>Catalog.СодержаниеКурсаФайлы</catalogs>
   <dataProcessors>DataProcessor.HTML</dataProcessors>
