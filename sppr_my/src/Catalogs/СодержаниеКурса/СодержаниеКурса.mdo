@@ -69,6 +69,61 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="07ec4431-3bb4-4af4-a5c5-49913475d4a0">
+    <producedTypes>
+      <objectType typeId="0e3d5448-0d33-4a33-9a80-f769eea1c1aa" valueTypeId="dc5e7af5-c5c7-48c1-9f35-dc616a43fbc5"/>
+      <rowType typeId="8a7eee03-67f5-4a91-9107-2946ecaf98f3" valueTypeId="f91956ad-faba-48a8-9e80-40e0696dac9d"/>
+    </producedTypes>
+    <name>РезультатыДействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты действий</value>
+    </synonym>
+    <attributes uuid="90ed3463-5d04-4485-a5e4-0405f3cf37aa">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aedd1591-25bc-4889-b07f-ac9e024ed2ec">
+      <name>ТекДата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ff5e34fc-0f36-43e1-9c84-5fbbeeacc67a">
+      <name>СсылкаНаФайл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка на файл</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СодержаниеКурсаФайлы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="75079c1e-dfa4-4f74-a28c-c5d247824d41">
     <name>ФормаЭлемента</name>
     <synonym>
