@@ -39,6 +39,7 @@
   <subsystems>Subsystem.Обучение</subsystems>
   <subsystems>Subsystem.Сервис</subsystems>
   <subsystems>Subsystem.Задачи</subsystems>
+  <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
   <catalogs>Catalog.ЗадачаИсполнителяФайлы</catalogs>
   <catalogs>Catalog.Курсы</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
