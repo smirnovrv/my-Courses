@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e66355d3-40e1-4b72-a7b0-9176398b8684">
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc9fb725-bdd3-40e8-971e-31f8a62aa2ea">
   <name>Конфигурация</name>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3c95218e-98cd-454f-a46c-5a9453cf7ded"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a328184d-4da5-4f32-9376-6ca04162285f"/>
@@ -12,7 +12,6 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.1.5.4</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -28,7 +27,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.20</compatibilityMode>
-  <languages uuid="231bd424-eaaf-4174-a576-ade9b3917933">
+  <languages uuid="c75ec9aa-a947-4209-ad35-b829b687a866">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
@@ -36,17 +35,4 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Обучение</subsystems>
-  <subsystems>Subsystem.Сервис</subsystems>
-  <subsystems>Subsystem.Задачи</subsystems>
-  <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
-  <catalogs>Catalog.ЗадачаИсполнителяФайлы</catalogs>
-  <catalogs>Catalog.Курсы</catalogs>
-  <catalogs>Catalog.Партнеры</catalogs>
-  <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
-  <catalogs>Catalog.СодержаниеКурса</catalogs>
-  <catalogs>Catalog.СодержаниеКурсаФайлы</catalogs>
-  <dataProcessors>DataProcessor.HTML</dataProcessors>
-  <tasks>Task.ЗадачаИсполнителя</tasks>
-  <tasks>Task.ЗадачаИсполнителя2</tasks>
 </mdclass:Configuration>
