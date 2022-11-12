@@ -35,4 +35,5 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Курсы</catalogs>
 </mdclass:Configuration>
