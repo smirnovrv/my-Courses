@@ -62,6 +62,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СодержаниеКурса.Form.ФормаЭлемента</defaultObjectForm>
   <tabularSections uuid="68e98f22-59c1-4e45-b9a1-4a3723738cb7">
     <producedTypes>
       <objectType typeId="0096c84f-c146-4e24-bebc-1b431365003c" valueTypeId="c58762eb-185b-4806-89a7-353200bb2109"/>
@@ -119,4 +120,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="7e305d1f-86bd-4572-8d47-a9646fa54354">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
