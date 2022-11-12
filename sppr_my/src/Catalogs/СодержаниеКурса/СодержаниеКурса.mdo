@@ -129,4 +129,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="6dd10c29-1c55-4e77-b201-3a1cc7e4707a">
+    <name>ФормаКомментария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма комментария</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
