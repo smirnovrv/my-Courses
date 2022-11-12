@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcd6a3f7-aa5f-4585-8eca-a63c9c9bf6d0">
+  <producedTypes>
+    <objectType typeId="6d153e0c-1e29-43ce-ba39-4dc6d7ddfedf" valueTypeId="6a7590b3-1bd9-4d1d-b3ee-56c6e6818d6e"/>
+    <refType typeId="3127fd9e-b510-4454-ad82-74d25147bd8b" valueTypeId="d586bb6f-452b-4423-8ae4-8292db010e5b"/>
+    <selectionType typeId="5b6725a0-c74a-4b54-b684-3bdafa8bb1c7" valueTypeId="ecd13b67-97ce-454b-ab99-17a7988b3b0c"/>
+    <listType typeId="f22c7475-bf1f-40aa-886b-d730928e1175" valueTypeId="ca970d23-98db-4ec1-97a8-d04527074526"/>
+    <managerType typeId="c7841683-c763-4a24-ad6a-c4804e16e033" valueTypeId="525ea002-5b7c-4f3d-b447-642d9987bb65"/>
+  </producedTypes>
+  <name>СодержаниеКурсаФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Содержание курса файлы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СодержаниеКурсаФайлы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СодержаниеКурсаФайлы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Содержание курса файлы</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d85fa387-a2f4-40ac-b03c-ae0ec6b9cac4">
+    <name>ВладелецФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец файла</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СодержаниеКурса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b403d9b7-7eaf-449b-9f43-05a9e0a94729">
+    <name>ДанныеТекущаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d139a68-2438-42d3-b25f-9d2a8d38fa08">
+    <name>ФайлХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

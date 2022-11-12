@@ -38,4 +38,6 @@
   <subsystems>Subsystem.Курсы</subsystems>
   <subsystems>Subsystem.Задачи</subsystems>
   <catalogs>Catalog.Курсы</catalogs>
+  <catalogs>Catalog.СодержаниеКурса</catalogs>
+  <catalogs>Catalog.СодержаниеКурсаФайлы</catalogs>
 </mdclass:Configuration>
