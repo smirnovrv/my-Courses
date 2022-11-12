@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
-    <name>Комменарий</name>
-    <id>1</id>
+    <name>Комментарий</name>
+    <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Комменарий</segments>
+      <segments>Комментарий</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КомменарийРасширеннаяПодсказка</name>
-      <id>3</id>
+      <name>КомментарийРасширеннаяПодсказка</name>
+      <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -27,8 +27,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КомменарийКонтекстноеМеню</name>
-      <id>2</id>
+      <name>КомментарийКонтекстноеМеню</name>
+      <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -61,6 +61,14 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnClose</event>
+    <name>ПриЗакрытии</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -70,10 +78,10 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>Комменарий</name>
+    <name>Комментарий</name>
     <title>
       <key>ru</key>
-      <value>Комменарий</value>
+      <value>Комментарий</value>
     </title>
     <id>1</id>
     <valueType>
