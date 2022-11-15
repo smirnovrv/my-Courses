@@ -294,7 +294,8 @@
 		СворачиваемыйТест = "
 		|<DIV  class=Content style='border: 1px solid black;'>
 		|	<UL class=CommentContainer>
-		|		"+ ?(Свернута, "<LI class=""Node ExpandClosed"""+?(ЕстьОтступ,"style=""padding-left: 15px;""","")+">", "<LI class=""Node ExpandOpen"""+?(ЕстьОтступ,"style=""padding-left: 15px;""","")+">") + "
+		//|		"+ ?(Свернута, "<LI class=""Node ExpandClosed"""+?(ЕстьОтступ,"style=""padding-left: 15px;""","")+">", "<LI class=""Node ExpandOpen"""+?(ЕстьОтступ,"style=""padding-left: 15px;""","")+">") + "
+		|		"+ ?(Свернута, "<LI class=""Node ExpandClosed"""+">", "<LI class=""Node ExpandOpen"""+">") + "
 		|			<DIV onclick=""showHide('"+idName+"_sv', '"+idName+"')"" id="+idName+" class=Expand>"+?(Свернута,"+","-")+"</DIV>
 		|			<DIV class=Content>
 		//|				<P>
