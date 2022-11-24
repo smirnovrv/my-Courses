@@ -231,9 +231,9 @@
 	|}
 	|
 	|.Expand {
-	|	width: 18px;
-	|	height: 18px;
-	|	float: left;
+	//|	width: 18px;
+	//|	height: 18px;
+	//|	float: left;
 	//|	FONT-SIZE: 9.5pt;
 	|	FONT-SIZE: 10.5pt;
 	|	FONT-WEIGHT: bolder; 
@@ -292,7 +292,8 @@
 		|</LI>";
 	Иначе
 		СворачиваемыйТест = "
-		|<DIV  class=Content style='border: 1px solid black;'>
+		//|<DIV  class=Content style='border: 1px solid black;'>   
+		|<DIV  class=Content>
 		|	<UL class=CommentContainer>
 		//|		"+ ?(Свернута, "<LI class=""Node ExpandClosed"""+?(ЕстьОтступ,"style=""padding-left: 15px;""","")+">", "<LI class=""Node ExpandOpen"""+?(ЕстьОтступ,"style=""padding-left: 15px;""","")+">") + "
 		|		"+ ?(Свернута, "<LI class=""Node ExpandClosed"""+">", "<LI class=""Node ExpandOpen"""+">") + "
@@ -380,6 +381,16 @@
 Функция ПолучитьТекстДляВставкиHTML(Массив)
 	Текст = ""; 
 	Для Каждого СтрокаМассива Из Массив Цикл 
+		//ПервыйСимвол 	= Лев(СтрокаМассива,1);
+		//ПоследнийСимвол = Прав(СтрокаМассива,1);  
+		//
+		//Если ПервыйСимвол = "<" Тогда 
+		//	 СтрокаМассива = "&lt"+Сред(СтрокаМассива,2); 
+		//КонецЕсли;
+		//
+		//Если ПоследнийСимвол = ">" Тогда 
+		//	СтрокаМассива = Сред(СтрокаМассива,1,СтрДлина(СтрокаМассива)-1)+"&gt";
+		//КонецЕсли;
 		СтрокаМассива = СтрЗаменить(СтрокаМассива,">","&gt");
 		СтрокаМассива = СтрЗаменить(СтрокаМассива,"<","&lt");
 	
