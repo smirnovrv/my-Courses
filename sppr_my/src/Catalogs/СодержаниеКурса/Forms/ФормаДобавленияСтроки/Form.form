@@ -155,12 +155,12 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnClose</event>
-    <name>ПриЗакрытии</name>
-  </handlers>
-  <handlers>
     <event>ChoiceProcessing</event>
     <name>ОбработкаВыбора</name>
+  </handlers>
+  <handlers>
+    <event>OnClose</event>
+    <name>ПриЗакрытии</name>
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
