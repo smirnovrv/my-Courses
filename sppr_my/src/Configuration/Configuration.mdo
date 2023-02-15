@@ -42,4 +42,5 @@
   <catalogs>Catalog.Курсы</catalogs>
   <catalogs>Catalog.СодержаниеКурса</catalogs>
   <catalogs>Catalog.СодержаниеКурсаФайлы</catalogs>
+  <catalogs>Catalog.КурсWeb2023</catalogs>
 </mdclass:Configuration>
