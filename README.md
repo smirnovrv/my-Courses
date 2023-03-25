@@ -1,1 +1,1 @@
-# mySPPR
+# my-Courses
