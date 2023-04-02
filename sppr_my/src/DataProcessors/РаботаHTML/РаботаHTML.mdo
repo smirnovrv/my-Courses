@@ -10,6 +10,7 @@
     <value>Работа HTML</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаHTML.Form.Форма</defaultForm>
   <attributes uuid="b8fe9908-9052-46a1-937f-b4b338f4c86f">
     <name>ТекстовоеПоле</name>
     <synonym>
@@ -36,4 +37,13 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <forms uuid="db47197f-e284-4a91-94a9-d4a6e8f45f6b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
