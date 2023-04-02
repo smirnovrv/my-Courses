@@ -38,9 +38,11 @@
   </languages>
   <subsystems>Subsystem.Курсы</subsystems>
   <subsystems>Subsystem.Задачи</subsystems>
+  <subsystems>Subsystem.Прочее</subsystems>
   <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
   <catalogs>Catalog.Курсы</catalogs>
   <catalogs>Catalog.СодержаниеКурса</catalogs>
   <catalogs>Catalog.СодержаниеКурсаФайлы</catalogs>
   <catalogs>Catalog.КурсWeb2023</catalogs>
+  <dataProcessors>DataProcessor.РаботаHTML</dataProcessors>
 </mdclass:Configuration>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="648e45cd-4188-4f73-b11c-137c631b2988">
+  <producedTypes>
+    <objectType typeId="f6025636-7f07-4da5-8d3c-c2f7c7a9c15f" valueTypeId="b57b8847-7a3a-487a-975e-c836e7f0f8bd"/>
+    <managerType typeId="836239e2-5cac-4762-b5f1-e9f8770f3137" valueTypeId="98396d9b-4a4d-42b8-af5a-d5be94a7f86e"/>
+  </producedTypes>
+  <name>РаботаHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа HTML</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="b8fe9908-9052-46a1-937f-b4b338f4c86f">
+    <name>ТекстовоеПоле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текстовое поле</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8826d616-102b-41d0-906a-d6211b34a774">
+    <name>ПолеHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле HTML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>
