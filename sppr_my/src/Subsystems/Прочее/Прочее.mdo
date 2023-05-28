@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.РаботаHTML</content>
+  <content>DataProcessor.Задачник</content>
 </mdclass:Subsystem>
