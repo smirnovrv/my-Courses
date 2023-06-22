@@ -37,6 +37,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Курсы_22.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Курсы_22.Form.ФормаСписка</defaultListForm>
   <attributes uuid="36c4f534-f3c0-447e-b103-ed47a1160597">
     <name>Часть</name>
     <synonym>
@@ -132,6 +133,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="19654780-d559-4399-9476-f1b4ebe2bdbd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
