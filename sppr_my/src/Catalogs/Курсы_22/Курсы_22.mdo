@@ -128,6 +128,51 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="82cc5300-594a-47cb-aa7d-6a0865d75394">
+    <producedTypes>
+      <objectType typeId="9dd62f73-3dd0-48be-a3c8-bda3960ee32d" valueTypeId="ac590d26-acd0-4abc-add9-c97c1cf3bc3b"/>
+      <rowType typeId="560db028-455d-4deb-996e-aba2730f2bd4" valueTypeId="b7ebdb52-04a6-4214-8c97-9a26b56106e6"/>
+    </producedTypes>
+    <name>Файлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <attributes uuid="fa368d43-e827-4da8-8143-6714f142ecc5">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6c08610e-5470-4e3f-8086-7df4b9ab4321">
+      <name>СсылкаНаФайл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка на файл</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="5af5ac28-c305-416b-9e55-b4ce7bf13f8f">
     <name>ФормаЭлемента</name>
     <synonym>
