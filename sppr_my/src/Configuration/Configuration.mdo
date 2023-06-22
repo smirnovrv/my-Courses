@@ -40,11 +40,12 @@
   <subsystems>Subsystem.Задачи</subsystems>
   <subsystems>Subsystem.Прочее</subsystems>
   <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
+  <catalogs>Catalog.КурсWeb2023</catalogs>
   <catalogs>Catalog.Курсы</catalogs>
+  <catalogs>Catalog.Курсы_22Файлы</catalogs>
+  <catalogs>Catalog.Курсы_22</catalogs>
   <catalogs>Catalog.СодержаниеКурса</catalogs>
   <catalogs>Catalog.СодержаниеКурсаФайлы</catalogs>
-  <catalogs>Catalog.КурсWeb2023</catalogs>
-  <catalogs>Catalog.Курсы_22</catalogs>
   <dataProcessors>DataProcessor.РаботаHTML</dataProcessors>
   <dataProcessors>DataProcessor.Задачник</dataProcessors>
 </mdclass:Configuration>
