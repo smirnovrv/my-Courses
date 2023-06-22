@@ -44,6 +44,7 @@
   <catalogs>Catalog.СодержаниеКурса</catalogs>
   <catalogs>Catalog.СодержаниеКурсаФайлы</catalogs>
   <catalogs>Catalog.КурсWeb2023</catalogs>
+  <catalogs>Catalog.Курсы_22</catalogs>
   <dataProcessors>DataProcessor.РаботаHTML</dataProcessors>
   <dataProcessors>DataProcessor.Задачник</dataProcessors>
 </mdclass:Configuration>

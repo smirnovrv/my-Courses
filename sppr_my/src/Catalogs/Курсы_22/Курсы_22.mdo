@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24937895-f110-4542-ad64-bc13b58be10d">
+  <producedTypes>
+    <objectType typeId="87d423f5-1623-4503-88c7-ad005ce3e5a2" valueTypeId="54b27e79-9d1f-467f-9120-ca96ed6b26c2"/>
+    <refType typeId="7001e834-4fb4-438a-a555-899170151392" valueTypeId="efe308ca-41d5-45f3-84ef-f16fa8c98a97"/>
+    <selectionType typeId="5f3304b5-711f-460e-bc3e-fd4e7e286b01" valueTypeId="ca7feda8-10c5-4dd5-8939-6de73d2908ac"/>
+    <listType typeId="1a703faa-6ce2-4987-99e8-f671792d1c6f" valueTypeId="a750298f-242e-4495-b7f1-bd1237e69ce3"/>
+    <managerType typeId="af4e0e6f-69ee-404c-aee2-0d5e98012ed1" valueTypeId="75c4773b-dd2e-44de-99c0-729d1c1f7333"/>
+  </producedTypes>
+  <name>Курсы_22</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курсы (2022)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Курсы_22.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Курсы_22.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <explanation>
+    <key>ru</key>
+    <value>Иерархия как деление книги:книга делится на части, части — на главы, главы — на параграфы, параграфы на пукты</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
