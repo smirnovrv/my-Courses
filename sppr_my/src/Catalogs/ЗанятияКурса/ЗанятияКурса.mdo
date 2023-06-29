@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a6672c2-a2fb-437c-a56f-be8a26c499ad">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a6672c2-a2fb-437c-a56f-be8a26c499ad">
   <producedTypes>
     <objectType typeId="3ba2fad0-ba35-4c42-af62-243e7ac69279" valueTypeId="33e1dd44-24cc-4594-9aae-e80490db3d2c"/>
     <refType typeId="2c23f8e7-0833-4097-8e81-d9afdd9f0e56" valueTypeId="ea48bc0d-b93c-4097-a6f5-5679337b3ba3"/>
@@ -31,4 +31,89 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="f7abb621-5605-4faa-b987-3a73d61aaa6a">
+    <producedTypes>
+      <objectType typeId="32c23fc9-d54e-4132-8ac0-ac0af3c4a96d" valueTypeId="bdff9db4-0bbc-482f-941d-0842b08b29cd"/>
+      <rowType typeId="52382076-1a37-4f4e-b7d3-bf9e02302c1f" valueTypeId="12857d45-2acd-4564-afb5-52a27575e4b7"/>
+    </producedTypes>
+    <name>КомментарииИФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии и файлы</value>
+    </synonym>
+    <attributes uuid="618796d6-eeb9-4ebc-88ab-0f0805fdef52">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d41a8862-9c0d-4cab-970a-1628a1d1e739">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fc73f35f-7fb3-4b8f-99bb-56e86faa51b3">
+      <name>СсылкаНаФайл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка на файл</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СодержаниеКурсаФайлы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6bdb24e2-a9bd-4629-814b-5b9dd756c624">
+      <name>Заголовок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заголовок</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="56e2af36-632f-4879-a56a-b07569a1b69c">
+    <producedTypes>
+      <objectType typeId="20285652-2818-4640-a11a-e7f075f4c5a1" valueTypeId="26dca3db-f929-4e88-a2bf-f2b6a6b090a3"/>
+      <rowType typeId="22e8698f-7f15-4791-b6af-e5f323706c40" valueTypeId="09ecb19b-1eea-4d88-9241-4d794c7641da"/>
+    </producedTypes>
+    <name>Якоря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Якоря</value>
+    </synonym>
+  </tabularSections>
 </mdclass:Catalog>
