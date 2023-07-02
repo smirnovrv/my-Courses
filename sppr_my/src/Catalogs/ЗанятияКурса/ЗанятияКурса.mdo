@@ -31,6 +31,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗанятияКурса.Form.ФормаЭлемента</defaultObjectForm>
   <tabularSections uuid="f7abb621-5605-4faa-b987-3a73d61aaa6a">
     <producedTypes>
       <objectType typeId="32c23fc9-d54e-4132-8ac0-ac0af3c4a96d" valueTypeId="bdff9db4-0bbc-482f-941d-0842b08b29cd"/>
@@ -113,7 +114,16 @@
     <name>Якоря</name>
     <synonym>
       <key>ru</key>
-      <value>Якоря</value>
+      <value>Ссылки</value>
     </synonym>
   </tabularSections>
+  <forms uuid="85c89428-cbd1-4d05-86a1-8857408912e4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
