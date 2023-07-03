@@ -42,8 +42,8 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
+      <width>40</width>
+      <height>5</height>
       <wrap>true</wrap>
       <multiLine>true</multiLine>
       <chooseType>true</chooseType>
