@@ -959,6 +959,10 @@
     <items xsi:type="form:Button">
       <name>ФормаДобавитьКомментарий</name>
       <id>60</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить комментарий и файл</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

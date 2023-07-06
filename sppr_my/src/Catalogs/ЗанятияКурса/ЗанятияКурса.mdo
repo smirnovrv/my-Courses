@@ -81,7 +81,7 @@
         <value>Ссылка на файл</value>
       </synonym>
       <type>
-        <types>CatalogRef.СодержаниеКурсаФайлы</types>
+        <types>CatalogRef.ЗанятияКурсаФайлы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
