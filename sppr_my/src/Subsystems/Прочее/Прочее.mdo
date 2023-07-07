@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.РаботаHTML</content>
   <content>DataProcessor.Задачник</content>
+  <content>DataProcessor.КонсольЗапросов</content>
 </mdclass:Subsystem>

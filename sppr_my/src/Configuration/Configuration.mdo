@@ -50,4 +50,5 @@
   <catalogs>Catalog.СодержаниеКурсаФайлы</catalogs>
   <dataProcessors>DataProcessor.РаботаHTML</dataProcessors>
   <dataProcessors>DataProcessor.Задачник</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
 </mdclass:Configuration>
