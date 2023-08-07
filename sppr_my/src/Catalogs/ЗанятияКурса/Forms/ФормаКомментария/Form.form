@@ -101,16 +101,20 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
-      <name>ДобавитьФайл</name>
-      <id>4</id>
+      <name>ДобавитьФайлНовыйВариант</name>
+      <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить файл</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДобавитьФайлРасширеннаяПодсказка</name>
-        <id>5</id>
+        <name>ДобавитьФайлНовыйВариантРасширеннаяПодсказка</name>
+        <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -123,7 +127,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ДобавитьФайл</commandName>
+      <commandName>Form.Command.ДобавитьФайлНовыйВариант</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -202,6 +206,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ДобавитьФайл</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ДобавитьФайлНовыйВариант</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить файл новый вариант</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьФайлНовыйВариант</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
