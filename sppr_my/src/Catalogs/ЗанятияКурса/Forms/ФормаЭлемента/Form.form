@@ -278,6 +278,10 @@
           </userVisible>
           <horizontalAlign>Left</horizontalAlign>
         </autoCommandBar>
+        <handlers>
+          <event>OnActivateRow</event>
+          <name>КомментарииИФайлыПриАктивизацииСтроки</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -575,6 +579,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
+          <pictureSize>Proportionally</pictureSize>
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
