@@ -451,7 +451,6 @@
         <key>ru</key>
         <value>Комментарии</value>
       </title>
-      <width>17</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>ГруппаКомментарийИФайлыРасширеннаяПодсказка</name>
@@ -471,9 +470,15 @@
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>HorizontalIfPossible</group>
-        <behavior>Auto</behavior>
+        <behavior>Collapsible</behavior>
+        <collapsedRepresentationTitle>
+          <key>ru</key>
+          <value>Комм</value>
+        </collapsedRepresentationTitle>
+        <collapsed>true</collapsed>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
+        <showTitle>true</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
