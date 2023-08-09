@@ -169,19 +169,19 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
-          <name>КомментарииИФайлыКомментарий</name>
-          <id>82</id>
+          <name>КомментарииИФайлыНомерСтроки</name>
+          <id>104</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.КомментарииИФайлы.Комментарий</segments>
+            <segments>Объект.КомментарииИФайлы.LineNumber</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КомментарииИФайлыКомментарийРасширеннаяПодсказка</name>
-            <id>84</id>
+            <name>КомментарииИФайлыНомерСтрокиРасширеннаяПодсказка</name>
+            <id>106</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -195,58 +195,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>КомментарииИФайлыКомментарийКонтекстноеМеню</name>
-            <id>83</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>КомментарииИФайлыСсылкаНаФайл</name>
-          <id>88</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.КомментарииИФайлы.СсылкаНаФайл</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>КомментарииИФайлыСсылкаНаФайлРасширеннаяПодсказка</name>
-            <id>90</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>КомментарииИФайлыСсылкаНаФайлКонтекстноеМеню</name>
-            <id>89</id>
+            <name>КомментарииИФайлыНомерСтрокиКонтекстноеМеню</name>
+            <id>105</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -425,7 +375,7 @@
         </contextMenu>
         <changeRowSet>true</changeRowSet>
         <changeRowOrder>true</changeRowOrder>
-        <width>17</width>
+        <width>10</width>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
