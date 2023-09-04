@@ -438,7 +438,7 @@
       <id>94</id>
       <items xsi:type="form:FormField">
         <name>ТекущийКомментарий</name>
-        <id>96</id>
+        <id>110</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -449,7 +449,7 @@
         </dataPath>
         <extendedTooltip>
           <name>ТекущийКомментарийРасширеннаяПодсказка</name>
-          <id>98</id>
+          <id>112</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -464,7 +464,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ТекущийКомментарийКонтекстноеМеню</name>
-          <id>97</id>
+          <id>111</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -472,19 +472,18 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
+        <type>TextDocumentField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
+        <extInfo xsi:type="form:TextDocFieldExtInfo">
+          <width>50</width>
           <autoMaxWidth>true</autoMaxWidth>
+          <height>10</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <multiLine>true</multiLine>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>true</verticalStretch>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
